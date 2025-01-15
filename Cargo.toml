@@ -1,0 +1,16 @@
+[package]
+name = "atproto-rs"
+version = "0.1.0"
+edition = "2021"
+
+# [lib]
+# name = "atproto_rs"
+# path = "src/lib.rs"
+# version = "0.1.0"
+# edition = "2021"
+# bench = false
+
+[dependencies]
+futures-util = "0.3.31"
+tokio = { version = "1.43.0", features = ["rt", "macros", "time", "io-std"] }
+tokio-tungstenite = "0.26.1"
